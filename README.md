@@ -53,14 +53,12 @@ No server. No backend. No installation. Just open it and trade.
 
 ## Asset Coverage
 
-| Category        | Examples                                               |
-|-----------------|--------------------------------------------------------|
-| **FX — Majors** | EUR/USD, GBP/USD, USD/JPY, AUD/USD, USD/CAD, USD/CHF  |
-| **FX — Exotics**| USD/TRY, USD/ZAR, USD/MXN, USD/NOK, USD/SEK           |
-| **Metals**      | Gold, Silver, Platinum, Palladium, Copper              |
-| **Energy**      | WTI Crude, Brent Crude, Natural Gas                    |
-| **Indices**     | S&P 500, NASDAQ, DAX, FTSE 100, Nikkei 225, ASX 200   |
-| **Crypto**      | BTC/USD, ETH/USD                                       |
+| Category             | Examples                                                                 |
+|----------------------|--------------------------------------------------------------------------|
+| **FX — Majors**      | EUR/USD, GBP/USD, USD/JPY, USD/CHF, AUD/USD, NZD/USD, USD/CAD           |
+| **FX — Minors**      | EUR/GBP, EUR/JPY, EUR/CHF, GBP/JPY, AUD/JPY, AUD/NZD, CAD/JPY, CHF/JPY, NZD/JPY |
+| **FX — Exotics**     | USD/TRY, USD/ZAR, USD/MXN, USD/BRL, USD/INR, USD/CNH, USD/KRW, USD/SGD, USD/HKD, USD/NOK, USD/SEK, USD/PLN |
+| **Hard Commodities** | Gold, Silver, Platinum, Palladium, Copper, WTI Crude, Brent Crude, Natural Gas |
 
 ---
 
