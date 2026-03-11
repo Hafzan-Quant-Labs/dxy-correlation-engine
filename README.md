@@ -3,13 +3,13 @@
 <div align="center">
 
 ![Hafzan](https://img.shields.io/badge/Hafzan-DXY%20Engine-c8a96e?style=for-the-badge&labelColor=0d0d0d)
-![Version](https://img.shields.io/badge/version-2.0-c8a96e?style=flat-square&labelColor=141414)
+![Version](https://img.shields.io/badge/version-1.0-c8a96e?style=flat-square&labelColor=141414)
 ![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square&labelColor=141414)
 ![HTML](https://img.shields.io/badge/built%20with-HTML%20%2F%20CSS%20%2F%20JS-c8a96e?style=flat-square&labelColor=141414)
 
 **A professional-grade, single-file analytical engine for modeling DXY (US Dollar Index) correlation impacts across FX pairs, commodities, indices, and crypto assets.**
 
-[**→ Try the Engine Live**](https://YOUR-LIVE-LINK-HERE)
+[**→ Try the Engine Live**](https://hafzan-quant-labs.github.io/dxy-correlation-engine/)
 
 </div>
 
@@ -53,21 +53,19 @@ No server. No backend. No installation. Just open it and trade.
 
 ## Asset Coverage
 
-| Category        | Examples                                               |
-|-----------------|--------------------------------------------------------|
-| **FX — Majors** | EUR/USD, GBP/USD, USD/JPY, AUD/USD, USD/CAD, USD/CHF  |
-| **FX — Exotics**| USD/TRY, USD/ZAR, USD/MXN, USD/NOK, USD/SEK           |
-| **Metals**      | Gold, Silver, Platinum, Palladium, Copper              |
-| **Energy**      | WTI Crude, Brent Crude, Natural Gas                    |
-| **Indices**     | S&P 500, NASDAQ, DAX, FTSE 100, Nikkei 225, ASX 200   |
-| **Crypto**      | BTC/USD, ETH/USD                                       |
+| Category             | Examples                                                                 |
+|----------------------|--------------------------------------------------------------------------|
+| **FX — Majors**      | EUR/USD, GBP/USD, USD/JPY, USD/CHF, AUD/USD, NZD/USD, USD/CAD           |
+| **FX — Minors**      | EUR/GBP, EUR/JPY, EUR/CHF, GBP/JPY, AUD/JPY, AUD/NZD, CAD/JPY, CHF/JPY, NZD/JPY |
+| **FX — Exotics**     | USD/TRY, USD/ZAR, USD/MXN, USD/BRL, USD/INR, USD/CNH, USD/KRW, USD/SGD, USD/HKD, USD/NOK, USD/SEK, USD/PLN |
+| **Hard Commodities** | Gold, Silver, Platinum, Palladium, Copper, WTI Crude, Brent Crude, Natural Gas |
 
 ---
 
 ## Getting Started
 
 ### Option 1 — Use Online
-> [**→ Try the Engine Live**](https://YOUR-LIVE-LINK-HERE)
+> [**→ Try the Engine Live**](https://hafzan-quant-labs.github.io/dxy-correlation-engine/)
 
 No setup required. Works directly in your browser.
 
@@ -75,10 +73,10 @@ No setup required. Works directly in your browser.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/hafzan-dxy-engine.git
+git clone https://github.com/Hafzan-Quant-Labs/dxy-correlation-engine.git
 
 # Open the file
-open hafzan-dxy-engine-2.html
+open hafzan-dxy-engine.html
 ```
 
 Or simply download `hafzan-dxy-engine.html` and double-click it. That's it.
@@ -115,27 +113,21 @@ Zero npm packages. Zero build step. Zero frameworks.
 ## File Structure
 
 ```
-hafzan-dxy-engine-2.html   ← The entire engine in one file
+hafzan-dxy-engine.html   ← The entire engine in one file
 README.md                  ← This document
 ```
 
+---
+
 ## Screenshots
 
----<img width="1440" height="819" alt="Screenshot 2026-03-11 at 9 53 03 PM" src="https://github.com/user-attachments/assets/362b0d3b-5813-4759-84b7-5a0aac627c92" /></br>
+<img width="1440" height="819" alt="Screenshot 2026-03-11 at 9 53 03 PM" src="https://github.com/user-attachments/assets/362b0d3b-5813-4759-84b7-5a0aac627c92" /></br>
 <img width="1440" height="820" alt="Screenshot 2026-03-11 at 9 53 17 PM" src="https://github.com/user-attachments/assets/141bc93a-99f0-466d-8923-f7b1f6b70413" /></br>
 <img width="1440" height="820" alt="Screenshot 2026-03-11 at 9 53 30 PM" src="https://github.com/user-attachments/assets/67315dd9-e30f-4c08-903c-74cd8f235f2a" /></br>
 <img width="1439" height="820" alt="Screenshot 2026-03-11 at 9 53 43 PM" src="https://github.com/user-attachments/assets/288b4f02-11eb-4122-9e45-3ccd2ef47157" /></br>
 <img width="1440" height="819" alt="Screenshot 2026-03-11 at 9 53 56 PM" src="https://github.com/user-attachments/assets/b811dfb5-673f-4f42-936b-4f5326691c3a" /></br>
 
----
-
-## Roadmap
-
-- [ ] Editable correlation matrix (user-defined coefficients)
-- [ ] CSV export for P&L results
-- [ ] Short position support
-- [ ] Historical DXY scenario presets (e.g., March 2020, Nov 2022)
-- [ ] Multi-currency notional support
+ Multi-currency notional support
 
 ---
 
